@@ -1,0 +1,271 @@
+Tween Motion Effect 
+1. Create New Document: File -> New 
+2. Put one Circle on frame in layer 1  
+3. Set source Position of object 
+4. Insert key frame (Press F6) on 30th Frame in layer 1 
+5. Set destination position of object 
+6. Select all frame (from 1 to 30) and right click  
+Select Create Tween Motion 
+7. To Run, Press Ctrl + Enter 
+
+Shape Motion Effect 
+1. Create New Document: File -> New 
+2. Put one Circle on frame in layer 1  
+3. Set source Position of object 
+4. Insert key frame (Press F6) on 30th Frame in layer 1 
+5. Set destination position of object 
+6. Select all frame (from 1 to 30) and right click  
+Select Create Tween Motion 
+7. Click on frame 1 and set the property Tween: Shape 
+8. Select object and press Ctrl + B Twice 
+9. Click on frame 30 and set the property Tween: Shape 
+10. Delete Circle and Place Rectangle 
+11. Select object and press Ctrl + B Twice 
+12. To Run, Press Ctrl + Enter
+
+Guided Path Effect 
+1. Create New Document: File -> New 
+2. Click On Motion Guide from Insert Menu 
+3. Select Pencil Tool, Make it Smooth 
+4. Select Guide Path Layer, Draw a Path on Stage  
+5. Select layer and put one object 
+6. Press f6 at 30th frame in both layer 
+7. Select all frame from layer and right-click and select Create Motion Tween. 
+8. Set Source and Destination position of an object on path 
+9. To Run, Press Ctrl + Enter 
+
+Program: 2 Move Circle around the stage. 
+1. Create New Document: File -> New 
+2. Put one Circle on frame in layer 1, at top-left corner 
+3. Press F6 at 20th frame in Layer 1, and move circle at top-right corner. 
+4. Press F6 at 40th frame in Layer 1, and move circle at bottom-right corner. 
+5. Press F6 at 60th frame in Layer 1, and move circle at bottom-left corner. 
+6. Press F6 at 80th frame in Layer 1, and move circle at top-left corner. 
+7. Select all frame (from 1 to 80) and right click, Select Create Motion Tween 
+8. To Run, Press Ctrl + Enter 
+
+Program: 3 Growing Moon 
+1. Create New Document: File -> New 
+2. Change background color of stage from white to black 
+3. Rename Layer-1 to Moon 
+4. Create Layer-2 and rename with “Animation” 
+5. Put one Circle on frame in Moon-layer, with fill with white color and border with white 
+color 
+6. Copy circle of Moon-layer, and paste on Animation-layer. 
+7. Select circle of Moon-layer, right-click and select convert to symbol option. 
+8. Select circle of Moon-layer. 
+9. Apply Filters: Glow: Blur-X and Blur-Y = 10, Color = White, Quality = High 
+10. Apply Filters: Blur: Blur-X and Blur-Y = 10, Quality = High 
+11. Select circle of Animation-layer. 
+12. Change fill color and border color from white to black. 
+13. Select circle of Animation-layer, right-click and select convert to symbol option. 
+14. Select circle of Animation-layer. 
+15. Apply Filters: Glow: Blur-X and Blur-Y = 10, Color = Black, Quality = High 
+16. Apply Filters: Blur: Blur-X and Blur-Y = 10, Quality = High 
+17. Select circle of Animation-layer and move that exactly on the circle of Moon-layer. 
+18. Press F6 at the frame no: 120 on both layers. 
+19. At 120th frame move your circle of Animation-layer just after the circle of Moon-layer. 
+20. Right-click on the timeline of Animation and apply “Create Motion Tween” 
+21. To Run, Press Ctrl + Enter 
+
+Program: 4 Mask Effect (Spot Light Effect) 
+1. Create New Document: File -> New 
+2. Take three layers: i.e. Layer 1, Layer 2 and Layer 3 
+3. Import one image on layer 1 
+4. Press Ctrl + k, and adjust the image. 
+5. Put one Circle on layer 2 
+6. Press F6 at 60th frame in all layers 
+7. Select all frame from layer 2 and right click on that and select Create Motion Tween 
+8. Set Source and Destination position of a Circle 
+9. Right Click on layer 2, and Select Mask 
+10. Import same image on Layer 3 which used in Layer 1. 
+11. Press Ctrl + k, and adjust the image. 
+12. Right click on image of Layer 3, and select convert to Symbol. 
+13. Select Graphics and press OK. 
+14. Set color equal to alpha, and set intensity (Alpha amount) to 40%. 
+15.  To Run, Press Ctrl + Enter
+
+Program: 5 Car is running on the road from left to right 
+1. Create New Document: File -> New 
+2. Create 4 Layers: Layer 1 (Car Body), Layer 2 (Front Wheel), Layer 3 (Rear Wheel), 
+Layer 4 (Road). 
+3. Create Car body on Layer 1, Right click on it and select Convert to Symbol. 
+4. Select Movie Clip and press OK. 
+5. Create Front Wheel on Layer 2, Right click on it and select Convert to Symbol. 
+6. Select Movie Clip and press OK. 
+7. Create Rear Wheel on Layer 3, Right click on it and select Convert to Symbol. 
+8. Select Movie Clip and press OK. 
+9. Create Road on Layer 4. 
+10. Press F6 at 60th frame in all 4 Layers. 
+11. Select all frames of Layers 1, 2 and 3 (from 1 to 60) and right click, and Select Create 
+Motion Tween. 
+12. Select Front Wheel in Layer 2, in properties set CW in Rotate. 
+13. Select Rear Wheel in Layer 3, in properties set CW in Rotate. 
+14. Set Source and destination position of objects in Layers 1, 2 and 3. 
+15. To Run, Press Ctrl + Enter
+
+Program: 6 Solar System 
+1. Create New Document: File -> New 
+2. Change Stage Background color: Black 
+3. Insert Menu: Click on New Symbol with name Earth_Moon_Sym 
+4. Rename Layer 1 to Earth 
+5. Create a Circle on Earth layer with Blue color and no border 
+6. Conver the Circle (Earth) to symbol (Movie Clip) 
+7. Apply Filters: Glow: Blur-X and Blur-Y = 10, Color = Light Blue (#00CCFF), Quality = 
+High 
+8. Apply Filters: Blur: Blur-X and Blur-Y = 10, Quality = High 
+9. Create Circle around the Earth with stroke color: Red, Fill Color: None 
+10. Create New layer and give the name Moon 
+11. Create a Circle on Moon layer with Blue color and no border 
+12. Conver the Circle (Moon) to symbol (Movie Clip) 
+13. Apply Filters: Glow: Blur-X and Blur-Y = 5, Color = White, Quality = High 
+14. Apply Filters: Blur: Blur-X and Blur-Y = 5, Quality = High 
+15. Create a Guide layer 
+16. Create Circle around the Earth with stroke color: Red, Fill Color: None 
+17. Using eraser (small) remove (cut) single pixel from Circle (Guided Layer) 
+18. Press F6 and create key-frame at 36 Frame-no for all 
+19. Adjust the Moon on Starting of Guided Layer point at Frame: 1 
+20. Adjust the Moon on Ending of Guided Layer point at Frame: 36 
+21. Apply "Create Motion Tween" on Moon Layer 
+22. Now Select Scene 1 
+23. Change layer 1 name to Earth_Moon 
+24. Drag and drop the Earth_Moon_Sym on Earth_Moon Layer 
+25. Insert New Layer and give the name as Sun 
+26. Create a Circle with yellow color and no border 
+27. Conver the Circle (Sun) to symbol (Movie Clip) 
+28. Apply Filters: Glow: Blur-X and Blur-Y = 20, Color = Red, Quality = High 
+29. Apply Filters: Blur: Blur-X and Blur-Y = 20, Quality = High 
+30. Create a Guide layer 
+31. Create ellipse around the Sun with stroke color: Red, Fill Color: None 
+32. Using eraser (small) remove (cut) single pixel from ellipse (Guided Layer) 
+33. Press F6 and create key-frame at 120 Frame-no for all 
+34. Adjust the Earth_Moon_Sym on Starting of Guided Layer point at Frame: 1 
+35. Adjust the Earth_Moon_Sym on Ending of Guided Layer point at Frame: 120 
+36. Apply "Create Motion Tween" on Earth_Moon Layer
+
+Program: 7 Shape Motion Effect (Text)  
+1. Create New Document: File -> New 
+2. Put Text “Sneha” on frame in layer 1. 
+3. Set source Position of object 
+4. Press F6 at 60th frame in Layer 1 
+5. Set destination position of object 
+6. Select all frame (from 1 to 60) and right click, Select Create Motion Tween 
+7. Click on frame 1 and set the property Tween: Shape 
+8. Select object and press Ctrl + B Twice 
+9. Delete Text “Sneha” and write new Text “Reena”. 
+10. Select object and press Ctrl + B Twice 
+11. Click on Frame 60.  
+12. To Run, Press Ctrl + Enter 
+
+Program: 8 Character Dropping. 
+1. Create New Document: File -> New 
+2. Create two Layers: Layer 1, Layer 2. 
+3. Write Your Name (i.e. ABC) using Text Tool on Layer 1, at top-center of stage. 
+4. Copy text of Layer 1, and paste it on Layer 2, and adjust it bottom-center of stage. 
+5. Select text of Layer 1, and press Ctrl + b. 
+6. Right Click on text of Layer 1, and select Distribute to Layers. (All character of text is 
+distributed in different layers). 
+7. Press F6 at 60th frame in all Layers. 
+8. Press F6 at 20th frame in Layer of 1st character (i.e. A), and move it bottom-center of 
+stage, right click in between of 1 to 20 frame and select Create Motion Tween. 
+9. Press F6 at 40th frame in Layer of 2nd character (i.e. B), and move it bottom-center of 
+stage, right click in between of 21 to 40 frame and select Create Motion Tween. 
+10. Press F6 at 60th frame in Layer of 3rd character (i.e. C), and move it bottom-center of 
+stage, right click in between of 41 to 60 frame and select Create Motion Tween.  
+11. To Run, Press Ctrl + Enter
+
+Program: 9 (Move ball on Specified path) 
+1. Create New Document: File -> New 
+2. Create a Circle on Layer 1. 
+3. Click on Motion Guide from Insert Menu, new Guided Layer is created. 
+4. Select Pencil Tool, Make it Smooth 
+5. Select Guide Path Layer, Draw a Path on Stage  
+6. Press F6 at 60th frame in both layer 
+7. Select all frames from Layer 1 and right click and select Create Motion Tween. 
+8. Set Source and Destination position of a Circle on path 
+9. To Run, Press Ctrl + Enter
+
+Program: 11 (3 rotating electrons in the orbit of an atom) 
+1. Create New Document: File -> New 
+2. Create Layer 1, name it as Oval-1, and Draw one Oval.  
+3. Press Ctrl + k, and adjust Oval at Center of Stage. 
+4. Create Layer 2, name it as Atom-1, and Draw one Small Circle. 
+5. Click on Motion Guide from Insert Menu, new Guided Layer is created for Atom-1 
+Layer. 
+6. Copy Oval of Layer Oval-1, and paste it in Guided Layer of Atom-1. 
+7. Press F6 at 60th frame in all 3 Layers. 
+8. Select all frames (1 to 60) from Layer Atom-1 and right click and select Create Motion 
+Tween. 
+9. Select 1st keyframe in Atom-1 Layer and set source of circle. 
+10. Select 30th frame and press F6, and set destination of circle to right end of Oval. 
+11. Select 60th frame and set destination of circle to the starting point. 
+12. Create again 2 Layers and one guided Layer. 
+13. Select all Layers which first created from 1st to 60th frame, right click and select Copy 
+Frames. 
+14. Select all newly created Layers from 1st to 60th frame, right click and select Paste 
+Frames. 
+15. Adjust Oval and path of Circle like. 
+16. Repeat steps from 12 to 14.
+17. Adjust Oval and path of Circle like. 
+18. To Run, Press Ctrl + Enter
+
+Program: 13 Digital Clock 
+1. Create New Document: File -> New 
+2. Rename Layer 1 to Clock 
+3. Set stage size to 400 x 100 px and background color: Black 
+4. Put Text box using Text Tool on Clock layer 
+5. Create New Layer and rename as Actions 
+6. Right click of Actions layer at frame-1 and click Actions. 
+7. Write below code: 
+var time:Date = new Date(); 
+var h = time.getHours(); 
+var m = time.getMinutes(); 
+var s = time.getSeconds(); 
+var sess = "AM"; 
+if(h > 12) 
+{ 
+sess = "PM" 
+h -= 12; 
+} 
+if(h < 10) 
+{ 
+h = "0" + h; 
+} 
+if(m < 10) 
+{ 
+m = "0" + m; 
+} 
+if(s < 10) 
+{ 
+s = "0" + s; 
+} 
+time_txt.text = h + " : " + m + " : " + s + " " + sess;
+8. Press F5 key on both the layers.
+
+Program: 14 Play and Stop Button 
+9. Create New Document: File -> New 
+10. Take three layers: i.e. Layer 1, Layer 2 and Layer 3 
+11. Put one Circle on frame in Layer 1, and right click on that Circle and select Convert to 
+Symbol (Symbol 1). 
+12. Select Graphics and press OK. 
+13. Select Symbol 1 and Set color equal to Tint. 
+14. Put one Rectangle on Layer 2, and Select Text tool and write “Start” on that Rectangle. 
+15. Select Rectangle and Text on Layer 2, and right click to select Convert to Symbol 
+(Symbol 2). 
+16. Select Button and press OK. 
+17. Double click on Symbol 2, new window is open, in that select “Up” key frame in Layer. 
+18. Press F6 (3 times) for Over, Down, and Hit. 
+19. Right Click on Symbol 2, and Select Action. 
+20. Write below Code in Action Window 
+On (release) { 
+play( ); 
+} 
+21. Repeat Steps 6 to 12 for Stop Button, write stop( ); function instead of play(); in the 
+code. 
+22. Press F6 at 60th frame in all layers 
+23. Select all frames from layer 1 and right click on that and select Create Motion Tween. 
+24. Set Source and Destination position of a Circle. 
+25. Right Click on First keyframe of layer 1, and Select Actions, and write stop(); function 
+in Action window. 
+26. To Run, Press Ctrl + Enter
+
